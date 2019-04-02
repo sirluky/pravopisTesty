@@ -71,7 +71,7 @@ export default class doplnovacka extends Component {
                    <hr />
       </div> 
           <div  style={{textAlign:"justify",display:!this.state.showOriginalText ? "block" : "none", maxWidth:960,margin:"auto", marginTop:100}}>
-          <p>Při držení shift nebo ctrl + kliknutí přepínáte mezi dlouhými písmeny.</p>
+          <p>Při držení shift/ctrl + kliknutí se můžete přepínat mezi dlouhými písmeny.</p>
           <hr/>
          {
           this.state.dom

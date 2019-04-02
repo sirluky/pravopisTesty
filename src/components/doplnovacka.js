@@ -69,7 +69,7 @@ export default class doplnovacka extends Component {
  <textarea onChange={e => this.setState({text:e.target.value})}  style={{display:"block",maxWidth:960,width:960,minHeight:300,margin:"auto"}}></textarea>
           <button onClick={this.generateDoplnovacka} style={{background:"linear-gradient(to right, blue,darkblue)", color:"white", border:"none",borderRadius:10,padding:20,margin:10,fontSize:30}}>Prevest</button>
                    <hr />
-      </div>
+      </div> 
           <div  style={{textAlign:"justify",display:!this.state.showOriginalText ? "block" : "none", maxWidth:960,margin:"auto", marginTop:100}}>
           <p>Při držení shift nebo ctrl + kliknutí přepínáte mezi dlouhými písmeny.</p>
           <hr/>
